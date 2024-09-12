@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.nav1,.nav2{
+    display: inline-flex;
+    gap: 2rem;
+}
+
+nav ul{
+   list-style: none;
+}
+
+.nav_img{
+    display: block;
+    justify-self: start !important;
+}
+
+nav li{
+    color: grey;
+}
+
+nav li:hover{
+    text-decoration: underline grey;
+}
+
+nav img{
+    max-width: 150px;
+}
+
+.shop_style{
+    background-image: url("/img/wepik--2022525-12751.jpg");
+    background-position:center;
+    background-repeat: none;
+    background-size: cover;
+    height: 45vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.but{
+    margin-right: 30%;
+    text-align: center;
+    width: 700px;
+    color:white;
+}
+
+.but h2{
+    font-size: 2.5rem;
+}
+
+.but button{
+    border: solid 0.5px white;
+    width: 8rem;
+    height: 3rem;
+    background-color: transparent;
+    margin-top: 1rem;
+    color: white;
+}
+
+.about_us{
+    text-align: center;
+}
+
+.about_us h2{
+    margin: 2rem 0;
+    font-size: 2.5rem;
+}
+
+.text{
+    display: grid;
+    margin: 0 50rem;
+    place-items: center;
+    color: grey;
+}
+
+.text p{
+    margin: 1rem 0;
+}
+
+.prod{
+    margin: 2rem 10rem;
+    text-align: left;
+    display: grid;
+    place-items: center;
+}
+
+.prod img{
+    height: 15rem;
+    margin: 2rem 5rem;
+}
+
+.prod button{
+    width: 8rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+}
+
+.video{
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+}
+
+.menu{
+    margin: 4rem 0 0 0;
+    display: grid;
+    place-items: center;
+}
+
+.menu_opt{
+    margin: 2rem 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul{
+    list-style: none;
+    display: inline-flex;
+    gap: 5rem;
+}
+
+.menu h4{
+    margin-top: 2rem;
+}
+
+.menu input{
+    margin: 0.5rem 0 4rem 0;
+}
+
+.pay{
+    display: grid;
+    place-items: center;
+}
+
+
+.pay ul{
+    margin: 2rem 0;
+    list-style: none;
+    display: inline-flex;
+    gap:2rem;
+}
